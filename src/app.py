@@ -41,9 +41,10 @@ def display_result(result, show_spectrogram):
         stuttered_chars = lines[4].split(":")[1].strip()
         transcription = (lines[5].split(":")[1].strip()).capitalize()
         transcript_without_stuttering = (lines[6].split(":")[1].strip()).capitalize()
-
-        st.code(f"Stuttering Seconds: {stuttering_seconds}\n"
+        st.success("Stuttering Detected")
+        st.code(
         f"Stuttered Chars: {stuttered_chars}\n"
+        # f"Stuttering Seconds: {stuttering_seconds}\n"
         f"Transcription: {transcription}\n"
         f"Transcript Without Stuttering: {transcript_without_stuttering}")
 

@@ -1,0 +1,6 @@
+# Stutter Detection Application
+![Alt text](/assets/image.png)
+
+The project leverages the Wav2vec model to convert audio into a matrix representation and utilizes Agnostic BERT to generate vector representations from transcriptions. These sentence representations are then concatenated to form a unified vector. Subsequently, a binary classifier is employed to differentiate between individuals categorized as "stutterers" and "non-stutterers." In instances where stuttering is identified, the project captures the percentage of stuttering, identifies signs of stuttering, and notes the specific seconds within the audio file where stuttering occurs.
+
+The primary objective of this endeavor is to introduce a novel methodology that integrates both audio and text representations for the purpose of classifying instances of stuttering. This innovative approach aims to provide valuable feedback to individuals with stuttering tendencies, enabling them to identify areas for improvement, practice their speech, and ultimately enhance their communication skills.

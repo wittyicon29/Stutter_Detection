@@ -74,7 +74,6 @@ def detect_stuttering(uploaded_file, text, show_spectrogram):
 def main():
     st.title("Stutter Detection 🗣️")
     # Reference Text Section
-    st.caption("Creator : Shreyas Dixit")
     st.subheader("Reference Text")
     ref_text = st.text_area("Enter Reference Text", height=1, max_chars=200)
 
